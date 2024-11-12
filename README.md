@@ -21,9 +21,30 @@ This project provides an ESP32 microcontroller setup for reading temperature and
 
 ## Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/esp32-dht11-mqtt.git
+# Installation Instructions
+
+## 1. Clone the repository
+Clone the project to your local machine or directly to your Arduino IDE project folder:
+
+```bash
+git clone https://github.com/yourusername/esp32-dht11-mqtt.git
+```
+## 2. Install the necessary libraries
+Open Arduino IDE and go to Sketch -> Include Library -> Manage Libraries. Search for and install the following libraries:
+```bash
+- Adafruit Sensor
+- DHT sensor library
+- PubSubClient
+```
+### 3. Upload the Code
+
+1. Open the `esp32-dht11-mqtt.ino` file in the Arduino IDE.
+2. In the Arduino IDE, go to **Tools** > **Board** and select your ESP32 board model.
+3. Go to **Tools** > **Port** and select the correct port for your ESP32.
+4. Click the **Upload** button (the right arrow icon) to upload the code to the ESP32.
+
+
+
 ## Usage
 
 ### Connect the DHT11 Sensor:
